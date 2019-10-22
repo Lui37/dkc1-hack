@@ -7,9 +7,11 @@ if !rom_revision == 0
 	end_bananas = $80A3D2
 	freerom_80 = $80A3D3
 	hijack_map = $80E906
+	dec_lives_1 = $B6A85F
 	draw_digit = $B88789
 	wram_clear_2 = $B88278
 	freerom_B8 = $B8F200
+	dec_lives_2 = $BEE474
 endif
 
 ; constants
