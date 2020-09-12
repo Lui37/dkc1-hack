@@ -1,5 +1,9 @@
 @include
 
+; u1.0 checksum
+org $00FFDC
+		dw $EF80^$FFFF, $EF80
+
 org end_bananas
 		RTS
 		
